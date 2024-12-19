@@ -105,7 +105,7 @@ def fetch_contacts(value, max_retries=3):
 
     return all_contacts
 
-def fetch_all_contacts():
+def handler():
     all_contacts = []
 
     for isActive in range(0, 2):
@@ -133,5 +133,5 @@ def fetch_all_contacts():
 
 if __name__ == "__main__":
     logging.info("Starting the contact fetch process.")
-    fetch_all_contacts()
+    handler()
     logging.info("Process completed.")

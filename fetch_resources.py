@@ -69,7 +69,7 @@ def fetch_resources(is_active, max_retries=3):
     logging.info(f"Total resources fetched for isActive {is_active}: {len(all_resources)}")
     return all_resources
 
-def fetch_all_resources():
+def handler():
     all_resources = []
 
     for is_active in [0, 1]:
@@ -88,4 +88,4 @@ def fetch_all_resources():
     logging.info(f"Data saved to '{result_file}'.")
 
 if __name__ == "__main__":
-    fetch_all_resources()
+    handler()

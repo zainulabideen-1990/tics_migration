@@ -128,7 +128,7 @@ def create_ticket_payload(ticket):
 
     return payload
 
-def process_tickets(ticket_data):
+def handler(ticket_data):
     new_payloads = []
     for ticket in ticket_data:
         payload = create_ticket_payload(ticket)
@@ -137,7 +137,7 @@ def process_tickets(ticket_data):
 
 if __name__ == "__main__":
     tickets = load_json('result2.json')
-    new_ticket_payloads = process_tickets(tickets)
+    new_ticket_payloads = handler(tickets)
 
     with open(os.path.join("json_files", "result3.json"), 'w') as f:
         json.dump(new_ticket_payloads, f, indent=4)

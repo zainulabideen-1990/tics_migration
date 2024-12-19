@@ -66,7 +66,7 @@ def save_contacts_to_file(contacts, filename=os.path.join("json_files", "atera_c
         json.dump(contacts, f, indent=4)
     logging.info(f"Data saved to '{filename}'.")
 
-def main():
+def handler():
     logging.info("Starting the fetch process for contacts...")
     contacts = fetch_contacts()
     if contacts:
@@ -75,4 +75,4 @@ def main():
         logging.warning("No contacts were fetched.")
 
 if __name__ == "__main__":
-    main()
+    handler()

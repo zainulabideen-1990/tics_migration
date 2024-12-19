@@ -65,7 +65,7 @@ def get_ticket_notes(ticket_id):
         logging.error(f"Request error for ticket {ticket_id}: {e}")
         raise
 
-def process_tickets(input_file, output_file):
+def handler(input_file, output_file):
     count = 0
     with open(input_file, "r") as f:
         all_tickets = json.load(f)
@@ -89,4 +89,4 @@ def process_tickets(input_file, output_file):
 if __name__ == "__main__":
     input_file = os.path.join("json_files", "result1.json")
     output_file = os.path.join("json_files", "result2.json")
-    process_tickets(input_file, output_file)
+    handler(input_file, output_file)

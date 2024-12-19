@@ -71,7 +71,7 @@ def fetch_tickets(priority, max_retries=3):
     logging.info(f"Total tickets fetched for priority {priority}: {len(all_tickets)}")
     return all_tickets
 
-def fetch_all_tickets():
+def handler():
     all_tickets = []
 
     for priority in range(1, 5):
@@ -90,4 +90,4 @@ def fetch_all_tickets():
     logging.info(f"Data saved to '{result_file}'.")
 
 if __name__ == "__main__":
-    fetch_all_tickets()
+    handler()

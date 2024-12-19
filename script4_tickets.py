@@ -65,7 +65,7 @@ def post_comment(ticket_id, comment):
     except RequestException as e:
         logging.error(f"Error posting comment to ticket {ticket_id} | Error: {e}")
 
-def post_tickets_from_json():
+def handler():
     try:
         with open(RESULT_FILE, 'r') as file:
             tickets = json.load(file)
@@ -96,4 +96,4 @@ def post_tickets_from_json():
         logging.error(f"Error reading the file {RESULT_FILE}: {e}")
 
 if __name__ == "__main__":
-    post_tickets_from_json()
+    handler()
