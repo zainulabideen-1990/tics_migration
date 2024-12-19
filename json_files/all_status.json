@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "name": "Open",
+        "original": "New"
+    },
+    {
+        "id": 5,
+        "name": "Closed",
+        "original": "Complete"
+    },
+    {
+        "id": 7,
+        "name": "Pending",
+        "original": "Waiting Customer"
+    },
+    {
+        "id": 8,
+        "name": "Pending",
+        "original": "In Progress"
+    },
+    {
+        "id": 9,
+        "name": "Pending",
+        "original": "Waiting Materials"
+    },
+    {
+        "id": 10,
+        "name": "Resolved",
+        "original": "Dispatched"
+    },
+    {
+        "id": 11,
+        "name": "Open",
+        "original": "Escalate"
+    },
+    {
+        "id": 12,
+        "name": "Pending",
+        "original": "Waiting Vendor"
+    },
+    {
+        "id": 13,
+        "name": "Pending",
+        "original": "Waiting Approval"
+    },
+    {
+        "id": 15,
+        "name": "Pending",
+        "original": "Change Order"
+    },
+    {
+        "id": 16,
+        "name": "Closed",
+        "original": "Inactive"
+    },
+    {
+        "id": 17,
+        "name": "Pending",
+        "original": "On Hold"
+    },
+    {
+        "id": 19,
+        "name": "Pending",
+        "original": "Customer Note Added"
+    },
+    {
+        "id": 20,
+        "name": "Pending",
+        "original": "Desktop Support Follow Up"
+    },
+    {
+        "id": 21,
+        "name": "Pending",
+        "original": "Tam to Follow Up"
+    },
+    {
+        "id": 22,
+        "name": "Pending",
+        "original": "Heather to Follow Up"
+    },
+    {
+        "id": 23,
+        "name": "Pending",
+        "original": "Peter to Follow Up"
+    },
+    {
+        "id": 24,
+        "name": "Pending",
+        "original": "Michael to Follow Up"
+    },
+    {
+        "id": 26,
+        "name": "Pending",
+        "original": "Titan Issue Submitted"
+    },
+    {
+        "id": 27,
+        "name": "Pending",
+        "original": "Justin to Follow Up"
+    },
+    {
+        "id": 28,
+        "name": "Pending",
+        "original": "Chris to Follow Up"
+    },
+    {
+        "id": 29,
+        "name": "Open",
+        "original": "AutoPower Issue"
+    },
+    {
+        "id": 30,
+        "name": "Open",
+        "original": "AutoPower Team"
+    },
+    {
+        "id": 31,
+        "name": "Pending",
+        "original": "Tamekia to Follow Up"
+    },
+    {
+        "id": 32,
+        "name": "Pending",
+        "original": "Rex to Follow Up"
+    }
+]
