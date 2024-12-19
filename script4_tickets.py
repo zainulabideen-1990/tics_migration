@@ -35,7 +35,7 @@ def post_ticket(ticket_data):
         response.raise_for_status()
 
         response_data = response.json()
-        ticket_id = response_data.get("id")
+        ticket_id = response_data.get("ActionID")
         if not ticket_id:
             raise ValueError("Ticket ID not found in the response")
 
