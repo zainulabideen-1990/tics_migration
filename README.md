@@ -1,12 +1,7 @@
-### Packages Information (Install Python stable version on your device)
+# Steps to Install Python
+ - 
 
-## No need to install manually b/m packages:
-    1. json
-    2. os
-    3. time
-    4. logging
-
-## Install b/m packages using (pip install requests tenacity python-dotenv)
+# Steps to Install b/m packages using (pip install requests tenacity python-dotenv)
     1. requests
     2. tenacity
     3. dotenv (from python-dotenv)
