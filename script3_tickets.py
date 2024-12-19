@@ -32,7 +32,7 @@ def get_ticket_impact(issue_type):
         4: 'Crisis',
         5: 'SiteDown',
     }
-    return impacts.get(issue_type, 'NoImpact')
+    return impacts.get(issue_type, 'Minor')
 
 def get_ticket_type(ticket_type_id):
     ticket_type_dict = {
