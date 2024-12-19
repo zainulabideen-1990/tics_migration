@@ -43,5 +43,5 @@ Note:
 
 List of Pre-saved JSON Files:
     -> all_priority.json
-    -> all_status.json (---Do visit the file once. I have tried to match status of AutoTask with Atera)
+    -> all_status.json
     -> atera_technicians.json (--I have fetched this data from Network Request, as there is noexposed API available in swagger doc)
