@@ -5,6 +5,12 @@
   - pip install requests tenacity python-dotenv
 
 ## Sequence to run scripts ##
+To execute the scripts sequentially, follow these steps:
+
+ - Run each script one at a time.
+ - Use the following command to run a script:  
+   python <script_filename>
+ - Ensure the first script completes execution before proceeding to the next.
 
 1. contacts_migration.py
     - Fetch Contacts from AutoTask, post contacts on atera, and save the extracted contacts in a file locally.
